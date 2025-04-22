@@ -1,0 +1,20 @@
+server:
+  port: 8080
+
+spring:
+  profiles:
+    active: db
+  datasource:
+    url: jdbc:postgresql://ep-wild-shadow-a2j427ud-pooler.eu-central-1.aws.neon.tech/expensedb?sslmode=require
+    driver-class-name: org.postgresql.Driver
+    username: expensedb_owner
+    password: npg_P2qapulRMcw8
+  h2:
+    console:
+      enabled: true
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
