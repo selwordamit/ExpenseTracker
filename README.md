@@ -1,9 +1,7 @@
 # 💸 Expense Tracker
 
 A personal expense tracking app built with **Java** and **Spring Boot**.  
-It lets users manage expenses, filter by category or date, and load sample data from JSON.
-
-> 🚧 Project is under active development.
+It lets users manage expenses, filter by category or date.
 
 ---
 
@@ -15,6 +13,8 @@ It lets users manage expenses, filter by category or date, and load sample data 
 - H2 Database (in-memory)
 - Lombok
 - Jackson (JSON parser)
+- Postman
+- PostgreSQL
 
 ---
 
